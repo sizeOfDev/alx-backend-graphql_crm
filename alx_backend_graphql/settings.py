@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'alx-backend-graphql_crm.urls'
+ROOT_URLCONF = 'alx_backend_graphql.urls'
 
 TEMPLATES = [
     {
@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'alx-backend-graphql_crm.wsgi.application'
+WSGI_APPLICATION = 'alx_backend_graphql.wsgi.application'
 
 
 # Database
@@ -125,5 +125,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 GRAPHENE = {
-    "SCHEMA": "alx-backend-graphql_crm.schema.schema"
+    "SCHEMA": "alx_backend_graphql.schema.schema"
 }
